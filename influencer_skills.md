@@ -50,29 +50,22 @@ Angle: "You do not have a personal website right now. Anyone who Googles '[their
 ## Writing Rules
 
 - NO em dashes anywhere, ever. Use commas, colons, or new sentences instead.
-- Keep mails SHORT. Nobody reads long cold emails. Total mail: under 90 words for 1-product, under 120 for 2-product. Shorter is always better.
-- The opening hook/pain-point line is ONE short sentence, not two. Cut it down to the sharpest possible version of their gap, no run-on sentences stacking multiple stats or clauses.
-- Subject lines: MAX 7-8 words. Count every word including numbers.
+- NO false/deceptive claims anywhere, not in the subject line, not in the body. Curiosity and specificity are the tools for getting opens/reads, not misrepresentation. A subject line must never assert something untrue or imply a relationship/event that didn't happen (no fake "Re:", no false urgency, no fabricated stat).
+- Any statistic or "studies show" style claim MUST be traced to a real, checkable primary source before use. Default to NOT citing a stat rather than using an unverified one, plenty of secondhand marketing-blog stats turn out to trace to nothing when checked at the source. A confident uncited assertion in your own voice is safer and often just as persuasive as a fabricated citation.
+- Subject lines: MAX 7-8 words. Count every word including numbers. Favor a genuine curiosity gap (a real question, a contrarian reframe, a loss-aversion angle) over asserting a benefit outright.
 - Tone: direct, confident, solution-oriented
-- Open with the influencer's specific pain point (their numbers, their gap, their situation), one line only
 - No filler phrases, no preamble, no "I hope this finds you well"
 - Never repeat an influencer already in MEMORY.md, always check before researching
-- Each product description must be hyper-personalized: reference their actual content, follower count, platform, post count, niche-specific question types, etc.
-- The recurring comment question must be hyper-specific to their niche and content. No generic examples.
+- Each personalized detail must be real and specific: their actual follower count, niche, a specific recurring question type, content format (reel/video/post), roughly how long ago they'd have answered it. No generic placeholders left unfilled in a sent draft.
 - No video demo link.
 
-**For 1-product mails (AI-Powered Instagram Automation only):**
-- No numbered headers. Use "So, what's the solution?" as a section break after the opening.
-- After the break, write the 2 features (instant replies, unanswered questions database, no hate-comment pointer) as crisp single-line bullets (not paragraphs).
-- No closer line ("Nobody in X is doing this"). End directly with the ReWired line + CTA.
-
-**For 2-product mails (Website + AI-Powered Instagram Automation):**
-- Use bold numbered headers with short personalized paragraphs, 1-2 lines each, not 2-3.
-- No closer line. End directly with the Re-Wired line + CTA.
+**Standard template (as of the 2026 revision, replaces the old 1-product/90-word short template):** a single narrative pitch, ~150-160 words, does not branch on website status, always pitches the AI-Powered Instagram Automation angle. See Email Structure below for the exact shape. If a strong reason comes up to also pitch "Your Own Website" for someone with no personal site, ask before reintroducing that branch, don't silently mix the two formats.
 
 **Re-Wired + social proof line, immediately followed IN THE SAME PARAGRAPH by the CTA (always one merged paragraph, no line break):** "At Re-Wired, we've built solutions like these for creators like Dr. Cuterus having close to 2M followers. Give us 15 minutes of your time where we understand your current system and set up systems to help you grow. Book a call now"
 Only "Book a call now" is hyperlinked (to https://www.re-wired.tech/ai-consultancy-call), plus "Re-Wired" hyperlinked to https://www.re-wired.tech. Nothing else in the sentence is a link.
 In HTML: At <a href="https://www.re-wired.tech">Re-Wired</a>, we've built solutions like these for creators like Dr. Cuterus having close to 2M followers. Give us 15 minutes of your time where we understand your current system and set up systems to help you grow. <a href="https://www.re-wired.tech/ai-consultancy-call">Book a call now</a>
+
+Note: the standard template below (2026 revision) uses its own CTA ("Book a demo to see it working live on your own content", linked to the same https://www.re-wired.tech/ai-consultancy-call URL) instead of this older "Book a call now" line. This older Re-Wired+CTA paragraph is kept here for reference/older drafts only, don't mix the two CTAs in one email.
 
 **Sign-off:**
 Sanvi Khandelwal
@@ -116,7 +109,39 @@ If YES personal website:
 
 ## Email Structure
 
-**1-product mail (has website — AI-Powered Instagram Automation only):**
+**Standard template (2026 revision — use this for all new drafts unless told otherwise):**
+```
+Subject: Why [X]K followers isn't the number that matters
+
+Hi [First name],
+
+In 2026, [X]K followers gets you noticed. But an engaged [niche] audience is what actually gets you paid.
+
+Now, imagine this: a follower asks about [specific topic] in your comments, something you already answered in a [reel/video] you posted [timeframe] ago.
+Right now you've got two options: answer it again, or tell them to scroll back and find it.
+
+There's a third option. Your content gets trained into an AI model, so when someone asks a question you've already answered, it replies instantly with the exact reel link, not an "AI made answer."
+
+Your views increase > your audience feels connected > brand deals pay you more.
+
+It's available to you at just Rs 2,000/month.
+Book a demo to see it working live on your own content.
+
+Sanvi Khandelwal
++91-9079122302
+Founder, Re-Wired
+```
+
+Placeholder guidance:
+- `[X]K followers` — real number, both in the subject and the "In 2026" opening line, keep them consistent.
+- `[niche]` — one or two words, their actual content category (trading, skincare, parenting, etc.), not "content."
+- `[specific topic]` — a real recurring question type from their comments, as specific as the old template required (not "a topic", something like "candlestick patterns" or "postpartum sleep").
+- `[reel/video]` — match their actual primary format.
+- `[timeframe]` — a plausible specific-sounding gap ("three months ago", "last year"), don't just default to "a month ago" for everyone.
+- "Book a demo" is hyperlinked to https://www.re-wired.tech/ai-consultancy-call. Nothing else in the body is a link except the sign-off's "Re-Wired".
+- HTML: keep the ">" chain line as plain text (arrows render fine as literal characters), don't turn it into a bulleted list.
+
+**Retired (old short template, kept for reference only, do not use for new drafts without being asked):**
 ```
 Subject: [7-8 words max]
 
@@ -136,7 +161,7 @@ Sanvi Khandelwal
 Founder, Re-Wired
 ```
 
-**2-product mail (no website — Website + AI-Powered Instagram Automation):**
+Retired 2-product variant (Website + AI-Powered Instagram Automation) — also kept for reference only:
 ```
 Subject: [7-8 words max]
 
@@ -186,12 +211,16 @@ Founder, Re-Wired
 
 ## Subject Line Examples
 
-Good formulas (same as doctor rules):
+**Default for the 2026 standard template:** "Why [X]K followers isn't the number that matters" — use this unless there's a specific reason to vary it.
+
+**Approved alternative formulas** (same curiosity-gap-without-deception principle, for variety across a batch so every email doesn't look identical):
+- "The follower trap most creators fall into"
+- "[Name], are brands even noticing your engagement?"
+- "Stop losing brand deals to smaller creators"
+
+**Retired formulas** (from the old short template, kept for reference):
 - [Big follower number]. [Contradiction or gap].
 - [Their content stat]. [Problem in 3-4 words].
-- [Niche hook]. [Gap in one phrase].
-
-Examples:
 - "890K followers. Comments still unanswered." (5 words)
 - "500 tax reels. Questions still going nowhere." (7 words)
 - "1.2M followers. Hate comments still manual." (6 words)
